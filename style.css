@@ -1,0 +1,187 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    top: 0px;
+    height: 60px;
+
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: 100px;
+    
+}
+
+.showfeats {
+    z-index: 1;
+    height: 7em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 5em;
+    text-shadow: -1px 1px 2px #000
+                    1px 1px 0 #000
+                    1px -1px 0 #000
+                    -1px -1px 0 #000;
+}
+
+.title-date {
+    color: black;
+    background-color: white;
+    justify-content: center;
+    font: 50px;   
+    align-items: center;
+    
+}
+
+.shows {
+    
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    column-gap: 25px;
+    
+}
+
+
+button { 
+    width: 288px;
+    height: 31px;
+    color: white;
+    margin-top: 15px;
+    background-color: #f0c14b;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    background-image: linear-gradient(#f7da90, #e2b33b);
+    border-radius: 3px;
+    justify-content: right;
+    
+}
+
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom{
+    background-color: #000;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.maping {
+    width: 250px;
+    
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social1 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 1em;
+}
+
+.foothead {
+    font-size: 2em;
+
+
+}
+
+.tiny{
+    margin: 3px;
+
+}
+
